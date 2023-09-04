@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 整个容器样式 */
+.container {
+  width: 600px;
+  height: 600px;
+  background: url("../images/content.jpg") no-repeat;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+/* 按钮公共样式 */
+button {
+  border: none;
+  outline: none;
+  
+}
+/* 开始按钮 */
+.startBtn {
+  width: 80px;
+  height: 80px;
+  background: url("../images/start.png") no-repeat;
+  display: block;
+  
+}
+/* 暂停按钮 */
+.pauseBtn {
+  width: 200px;
+  height: 200px;
+  background: url("../images/pause.png") no-repeat;
+  display: none;
+}
